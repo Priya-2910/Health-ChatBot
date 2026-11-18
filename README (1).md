@@ -8,13 +8,13 @@ HealthBot is a multilingual AI-powered healthcare assistance system designed to 
 
 HealthBot utilizes a multi-service architecture to provide seamless interaction and monitoring:
 
-* ** WhatsApp Integration:** Powered by Whatsapp API for global accessibility.
-* ** Natural Language Processing:** Rasa-driven intent detection and response generation.
-* ** Flask Backend:** Acts as the central nervous system, routing data between services.
-* ** ASHA Dashboard:** A dedicated interface for health workers to monitor and respond to alerts.
-* ** Dockerized:** Fully orchestrated using Docker Compose for "plug-and-play" deployment.
-* ** Node.js Backend:** Handles webhook requests and connects all services
-* ** Vaccine Tracking:** Stores and manages vaccination-related data
+*  WhatsApp Integration: Powered by Whatsapp API for global accessibility.
+*  Natural Language Processing: Rasa-driven intent detection and response generation.
+*  Flask Backend: Acts as the central nervous system, routing data between services.
+*  ASHA Dashboard: A dedicated interface for health workers to monitor and respond to alerts.
+*  Dockerized: Fully orchestrated using Docker Compose for "plug-and-play" deployment.
+*  Node.js Backend: Handles webhook requests and connects all services
+*  Vaccine Tracking: Stores and manages vaccination-related data
 
 
 ### System Data Flow
