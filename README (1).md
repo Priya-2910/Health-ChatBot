@@ -97,12 +97,12 @@ ASHA Dashboard: http://localhost:5000
 * The ASHA Dashboard receives a real-time alert for patient attention.
 
 ##  Key Features
-✔ WhatsApp Integration via Whatsapp-WebHook.
+* WhatsApp Integration via Whatsapp-WebHook.
 
-✔ Real-time NLP for symptom classification.
+* Real-time NLP for symptom classification.
 
-✔ Modular Architecture using Docker Compose.
+* Modular Architecture using Docker Compose.
 
-✔ Emergency Escalation system for health workers.
+* Emergency Escalation system for health workers.
 
-✔ Clean & Scalable code structure.
+* Clean & Scalable code structure.
