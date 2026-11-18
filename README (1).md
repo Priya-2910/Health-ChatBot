@@ -1,20 +1,20 @@
-# 🏥 HealthBot – WhatsApp-Based Health Assistance System
+#  HealthBot – WhatsApp-Based Health Assistance System
 
 HealthBot is a multilingual AI-powered healthcare assistance system designed to connect users with healthcare support in rural and semi-urban areas. The system allows users to interact via WhatsApp, receive health guidance, track vaccinations, and escalate critical cases to ASHA workers through a real-time dashboard.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 HealthBot utilizes a multi-service architecture to provide seamless interaction and monitoring:
 
-* **📲 WhatsApp Integration:** Powered by Whatsapp API for global accessibility.
-* **🧠 Natural Language Processing:** Rasa-driven intent detection and response generation.
-* **🔧 Flask Backend:** Acts as the central nervous system, routing data between services.
-* **🩺 ASHA Dashboard:** A dedicated interface for health workers to monitor and respond to alerts.
-* **🐳 Dockerized:** Fully orchestrated using Docker Compose for "plug-and-play" deployment.
-* **⚙️ Node.js Backend:** Handles webhook requests and connects all services
-* **💉 Vaccine Tracking:** Stores and manages vaccination-related data
+* ** WhatsApp Integration:** Powered by Whatsapp API for global accessibility.
+* ** Natural Language Processing:** Rasa-driven intent detection and response generation.
+* ** Flask Backend:** Acts as the central nervous system, routing data between services.
+* ** ASHA Dashboard:** A dedicated interface for health workers to monitor and respond to alerts.
+* ** Dockerized:** Fully orchestrated using Docker Compose for "plug-and-play" deployment.
+* ** Node.js Backend:** Handles webhook requests and connects all services
+* ** Vaccine Tracking:** Stores and manages vaccination-related data
 
 
 ### System Data Flow
@@ -22,7 +22,7 @@ HealthBot utilizes a multi-service architecture to provide seamless interaction 
 
 ---
 
-## 🏗️ Architecture & Project Structure
+##  Architecture & Project Structure
 
 The project is organized into modular services for scalability:
 
@@ -37,7 +37,7 @@ healthbot/
 ├── Dockerfile               # Backend container config
 └── README.md
 ```
-## 🛠️ Tech Stack
+##  Tech Stack
 ```
 Component        | Technology                  | Description
 -----------------|-----------------------------|-----------------------------------------------------
@@ -51,7 +51,7 @@ Orchestration    | Docker Compose              | Manages multi-service setup
 
 ```
 
-## ⚙️ How It Works
+##  How It Works
 * User Interaction: The user sends a message via WhatsApp.
 * Processing: Message is received through whatsapp-web.js and handled by Node.js backend
 * AI Understanding: Gemini API processes the message and generates responses
@@ -59,7 +59,7 @@ Orchestration    | Docker Compose              | Manages multi-service setup
 * Escalation: If the NLP detects a serious symptom (e.g., "High Fever," "Chest Pain"), the backend pushes a notification to the ASHA Dashboard.
 * Response: The user receives an automated response while the health worker is alerted for follow-up.
 
-## 🐳 Running the Project (Docker Recommended)
+##  Running the Project (Docker Recommended)
 # Step 1 – Clone Repository
 Bash
 * git clone [https://github.com/231901052/HealthBot.git](https://github.com/231901052/HealthBot.git)
@@ -85,7 +85,7 @@ Bash
 ## Step 5 – Access Services
 ASHA Dashboard: http://localhost:5000
 
-## 🧪 Testing the System
+##  Testing the System
 * Send a WhatsApp message like:
 
     "I have a high fever and a cough."
@@ -96,7 +96,7 @@ ASHA Dashboard: http://localhost:5000
 
 * The ASHA Dashboard receives a real-time alert for patient attention.
 
-## 🔐 Key Features
+##  Key Features
 ✔ WhatsApp Integration via Whatsapp-WebHook.
 
 ✔ Real-time NLP for symptom classification.
